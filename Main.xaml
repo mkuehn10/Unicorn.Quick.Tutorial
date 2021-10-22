@@ -78,7 +78,6 @@
       <AssemblyReference>System.ServiceModel</AssemblyReference>
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap:VirtualizedContainerService.HintSize="509,1638" sap2010:WorkflowViewState.IdRef="Sequence_2">
@@ -96,7 +95,7 @@
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,1445" sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <Sequence DisplayName=" Do" sap:VirtualizedContainerService.HintSize="376,1445" sap2010:WorkflowViewState.IdRef="Sequence_1">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="myUnicornName" />
               <Variable x:TypeArguments="x:Int32" Name="randomInterval" />
