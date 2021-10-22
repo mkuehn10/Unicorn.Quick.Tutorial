@@ -45,17 +45,17 @@ pipeline {
 
     }
 
-    post {
-	        success {
-	            echo 'Deployment has been completed!'
-	        }
-	        failure {
-	          echo "FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.JOB_DISPLAY_URL})"
-	        }
-	        always {
-	            cleanWs()
-	        }
-	    }
+    // post {
+	//         success {
+	//             echo 'Deployment has been completed!'
+	//         }
+	//         failure {
+	//           echo "FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.JOB_DISPLAY_URL})"
+	//         }
+	//         always {
+	//             cleanWs()
+	//         }
+	//     }
 
 
 
